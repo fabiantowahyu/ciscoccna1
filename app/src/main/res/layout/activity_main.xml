@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backlist"
+    tools:context="com.onlinelearningcenter.cisco.ccna1.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <!--<ImageView-->
+                <!--android:id="@+id/main_logo_toolbar"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:paddingLeft="-14dp"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/logo_bk"/>-->
+            <!--android:src="@drawable/untitled361"-->
+            <!--android:src="@drawable/logo_carsurin_white"-->
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_information2"
+                android:id="@+id/btn_information"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v 1.1"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:id="@+id/toolbar_title"
+                android:textStyle="bold"/>
+
+
+
+            <!--android:paddingStart="-70dp"
+            android:paddingLeft="-24dp"-->
+            <!--untuk menambah logo di toolbar-->
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/main_activity" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
