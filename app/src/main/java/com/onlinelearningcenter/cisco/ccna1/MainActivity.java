@@ -26,6 +26,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -232,6 +233,8 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             @Override
             public void onAdFailedToLoad(int errorCode) {
 //                mNextLevelButton.setEnabled(true);
+                Log.d("ADMOB_ERROR_CODE", "admob error code: " + errorCode);
+Toast.makeText(MainActivity.this, errorCode, Toast.LENGTH_SHORT).show();
             }
 
             @Override
