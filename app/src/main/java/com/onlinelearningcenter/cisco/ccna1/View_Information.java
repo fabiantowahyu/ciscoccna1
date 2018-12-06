@@ -9,7 +9,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.onlinelearningcenter.cisco.R;
+import com.onlinelearningcenter.cisco.ccna1.R;
 import com.onlinelearningcenter.cisco.ccna1.helper.SessionManager;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -63,7 +63,7 @@ public class View_Information extends ActionBarActivity {
         mWebView = (WebView) findViewById(R.id.webView);
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setSupportZoom(true);
-        mWebView.getSettings().setBuiltInZoomControls(true);
+        mWebView.getSettings().setBuiltInZoomControls(false);
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {

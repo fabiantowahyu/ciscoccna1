@@ -14,15 +14,15 @@
     <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
 
 <!--BANNER ASLI-->
-    <!--<string name="banner_ad_unit_id">ca-app-pub-8945008179432998/2490774735</string>-->
-    <!--<string name="banner_ad_unit_id_webview">ca-app-pub-8945008179432998/7221600506</string>-->
-    <!--<string name="interstitial_ad_unit_id">ca-app-pub-8945008179432998/5594368657</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-8945008179432998/2490774735</string>
+    <string name="banner_ad_unit_id_webview">ca-app-pub-8945008179432998/7221600506</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8945008179432998/5594368657</string>
 
 
     <!--banner demo-->
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_ad_unit_id_webview">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/8691691433</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="banner_ad_unit_id_webview">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
 
 
 

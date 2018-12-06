@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 
-import com.onlinelearningcenter.cisco.R;
+import com.onlinelearningcenter.cisco.ccna1.R;
 import com.onlinelearningcenter.cisco.ccna1.Rest.RestApi;
 import com.onlinelearningcenter.cisco.ccna1.config.SpiritConfig;
 import com.onlinelearningcenter.cisco.ccna1.helper.InternetConnection;

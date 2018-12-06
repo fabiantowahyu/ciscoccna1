@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.onlinelearningcenter.cisco.R;
+import com.onlinelearningcenter.cisco.ccna1.R;
 import com.onlinelearningcenter.cisco.ccna1.pojo.GoalResponses;
 
 import java.util.ArrayList;

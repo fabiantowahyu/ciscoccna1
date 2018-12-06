@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.onlinelearningcenter.cisco">
+    package="com.onlinelearningcenter.cisco.ccna1">
 
     <!-- Include required permissions for Google Mobile Ads to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,9 +14,11 @@
         android:theme="@style/AppThemeNoActionBar">
 
         <!-- This meta-data tag is required to use Google Play Services. -->
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8945008179432998~7032654971"/>
+
         <activity android:name="com.onlinelearningcenter.cisco.ccna1.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

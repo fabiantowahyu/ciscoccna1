@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.onlinelearningcenter.cisco.R;
+import com.onlinelearningcenter.cisco.ccna1.R;
 import com.onlinelearningcenter.cisco.ccna1.View_Information;
 import com.onlinelearningcenter.cisco.ccna1.pojo.GoalResponses;
 import com.squareup.picasso.Picasso;
